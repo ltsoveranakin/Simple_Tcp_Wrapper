@@ -1,0 +1,9 @@
+[package]
+name = "simple_tcp_wrapper"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serbytes = { git = "https://github.com/ltsoveranakin/serbytes.git" }
+uuid = "1.20"
+rand = "0.9"
