@@ -90,7 +90,7 @@ where
 
     let content_len = wbb.len() - buf_len;
 
-    wbb.write_at_index_pointer(&len_ip, &(content_len as PacketLen));
+    wbb.write_at_index_pointer(len_ip, &(content_len as PacketLen));
 
     wbb
 }
